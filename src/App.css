@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat&display=swap");
+body {
+  overflow-x: hidden;
+  font-family: "Abril Fatface", cursive;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.opa {
+  background-image: linear-gradient(
+      to right bottom,
+      rgb(0 0 0 / 90%),
+      rgb(0 0 0 / 99%)
+    ),
+    url(./assets/images/kkshome.png);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+}
+
+.priorities {
+  background-image: linear-gradient(
+      to right bottom,
+      rgb(0 0 0 / 70%),
+      rgb(0 0 0 / 80%)
+    ),
+    url(./assets/images/nigerians.png);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+}
+
+.about {
+  background-image: linear-gradient(
+      to right bottom,
+      rgb(0 0 0 / 75%),
+      rgb(0 0 0 / 85%)
+    ),
+    url(./assets/images/half.png);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+}
+
+.cropped {
+  background-image: linear-gradient(
+      to right bottom,
+      rgb(0 0 0 / 75%),
+      rgb(0 0 0 / 85%)
+    ),
+    url(./assets/images/cropped_id.png);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+}
+
+.speech {
+  background-image: linear-gradient(
+      to right bottom,
+      rgb(0 0 0 / 60%),
+      rgb(0 0 0 / 70%)
+    ),
+    url(./assets/images/speech.png);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+}
+
+.events {
+  background-image: linear-gradient(
+      to right bottom,
+      rgb(0 0 0 / 75%),
+      rgb(0 0 0 / 85%)
+    ),
+    url(./assets/images/events.png);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+}
+
+input.landing__input {
+  height: 72px;
+  width: 381px;
+  border-radius: 16px;
+  background: #f2f2f2;
+}
+
+.landing_page_btn {
+  background: #e52b32;
+  border-radius: 16px;
+  width: 381px;
+  height: 72px;
+  padding: 22px 32px;
+}
+
+.padding {
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+
+.volunteer__form {
+  width: 90%;
+  height: 100%;
+  background: #ffffff;
+  box-shadow: 4px 4px 60px rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
+}
+
+.volunteer__form__btn {
+  width: 100%;
+  height: 64px;
+  background: #e52b32;
+  border-radius: 8px;
+  padding: 22px 32px;
+}
